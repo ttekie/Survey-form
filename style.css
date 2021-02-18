@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 body::before {
   content:'';
   position: fixed;
@@ -27,7 +27,7 @@ body #survey-form {
   font-size: 16px;
   width: 50%;
   margin: auto;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 2.5rem;
   border-radius: 5px;
 }
@@ -35,7 +35,7 @@ header {
   background-color: rgba(255, 255, 255, 0);
   text-align: center;
   font-family: 'poppins', arial, verdana, sans-serif;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #title {
   margin-bottom: -12px;
@@ -43,6 +43,7 @@ header {
 #description {
   font-style: italic;
   font-size: 18px;
+  margin-bottom: 1.5em;
 }
 /**** form style ***/
 .form-container {
@@ -63,11 +64,13 @@ header {
 }
 .form-container #name, #email, #number {
   width: 100%;
+  height: 50px;
   padding: 14px 15px;
   border: thin solid;
   border-radius: 5px;
-  background-color: #f1f1f1;
   box-sizing: border-box;
+  font-family: 'poppins', arial, verdana, sans-serif;
+  font-size: 16px;
 }
 .form-container label {
   display: block;
@@ -79,23 +82,26 @@ span.clue {
 .form-container textarea {
   resize: vertical;
   width: 100%;
+  height: 180px;
   padding: 14px 15px;
   border: thin solid;
   border-radius: 5px;
-  background-color: #f1f1f1;
   box-sizing: border-box;
+  font-family: 'poppins', arial, verdana, sans-serif;
+  font-size: 16px;
 }
 .form-container p {
   margin-bottom: 5px;
 }
 #dropdown{
   width: 100%;
-  padding: 14px 10px;
+  height: 50px;
+  padding: 14px 15px;
   border: thin solid;
   border-radius: 5px;
-  background-color: #f1f1f1;
   font-size: 18px;
   box-sizing: border-box;
+  opacity: 0.9;
 }
 textarea::placeholder, input::placeholder {
   font-family: 'poppins', arial, verdana, sans-serif;
@@ -103,10 +109,10 @@ textarea::placeholder, input::placeholder {
 }
 .form-container button {
   width: 100%;
+  height: 50px;
   padding: 14px 10px;
   border-style: hidden;
   border-radius: 5px;
-  background-color: #f1f1f1;
   font-size: 18px;
   background: rgb(0, 153, 76);
   color: rgb(255, 255, 255);
