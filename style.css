@@ -104,10 +104,10 @@ textarea::placeholder, input::placeholder {
 .form-container button {
   width: 100%;
   padding: 14px 10px;
-  border: thin solid;
+  border-style: hidden;
   border-radius: 5px;
   background-color: #f1f1f1;
   font-size: 18px;
-  background: green;
-  color: white;
+  background: rgb(0, 153, 76);
+  color: rgb(255, 255, 255);
 }
